@@ -5,7 +5,7 @@ const fetch = require("node-fetch")
 const urls = [
     {
         name: "sutt0091@algonquinlive.com",
-        url: "http://localhost:3000/products"
+        url: "https://team-project-suttie.onrender.com/products"
     },
     //first teammate when I get it
     {
