@@ -10,11 +10,11 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log("Connected to MongoDB"))
     .catch(err => console.log(err));
 
-//get endpoints
+//default
 app.get("/", (req, res) => {
     res.send("Server is running");
 });
-
+//get all endpoint
 const Product = require("./models/Product");
 app.get("/products", async (req, res) => {
     const products = await Product.find();
