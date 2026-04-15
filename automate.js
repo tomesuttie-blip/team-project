@@ -11,8 +11,12 @@ const urls = [
     {
         name: "yose0008@algonquinlive.com",
         url: "https://team-project-xuce.onrender.com/products"
-    }
+    },
     //third teammate goes here
+    {
+        name: "moor0760@algonquinlive.com",
+        url: "https://crochet-store-z5rg.onrender.com/products"
+    }
 ];
 
 //async function so they run sequentially
